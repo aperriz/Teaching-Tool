@@ -1,0 +1,166 @@
+body{
+
+    background-color:rgb(199, 194, 194);
+    display: flexbox;
+    text-wrap: wrap;
+    max-width: 100%;
+    max-height: 100%;
+    font-weight: bold;
+    margin:0;
+    align-self: center;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 2em;
+
+}
+
+figure{
+
+    width:auto;
+
+}
+
+p, footer{
+
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 18px;
+    width:90%;
+    margin:auto;
+    
+
+}
+
+img{
+
+    margin: 20px 20px 20px 0px;
+    align-self:center;
+
+}
+
+#navbar{
+
+    background-color:cornflowerblue;
+    font-size:16px;
+    width:100%;
+    position:sticky;
+    top:0;
+
+}
+
+#navbar > button{
+
+    background-color: cornflowerblue;
+    font-weight: bold;
+    border: 0;
+    padding-top:20px;
+    padding-bottom:20px;
+    font-size: large;
+    width: 16.45%;
+
+}
+
+#navbar > button:hover{
+
+    background-color: lightblue;
+    
+
+}
+
+h1,h2,h3{
+
+    display: table;
+    text-align: center;
+    font-weight: bolder;
+    width: 100%;
+
+}
+h1{
+
+    font-size: 64px;
+
+}
+h2{
+    font-size: 48px;
+    
+}
+h3{
+
+    font-size: 32px;
+
+}
+
+#pHeading{
+
+    font-size:32px;
+    width:75%;
+    margin:auto;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-weight: bolder;
+}
+
+figcaption, img{
+
+    display:table;
+    align-content: center;
+    margin:auto;
+    
+}
+
+figcaption{
+
+    font-size: 12px;
+    text-align: center;
+    
+}
+
+#marathon{
+
+    width: 50%;
+
+}
+
+#helmet, #helmetCap{
+
+    width: 100%;
+    margin-left:0;
+
+}
+
+#helmFig{
+
+    float:right;
+    width:15%;
+
+}
+
+#phalanxFig{
+
+    float:left;
+    width:20%;
+
+}
+
+#phalanx, #phalanxCap{
+
+    width:100%;
+
+}
+
+#page-wrap {
+    position: relative;
+    min-height: 100vh;
+}
+  
+#content-wrap {
+    padding-bottom: 2.5rem;    /* Footer height */
+}
+  
+.footers {
+   position:relative;
+   bottom: 0;
+   width: 100%;
+   height: 2.5rem;            /* Footer height */
+   margin-bottom:20px;
+}
